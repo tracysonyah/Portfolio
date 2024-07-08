@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Link me</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        :root {
+            --third-color: #D33E43;
+            --fourth-color: #9B7874;
+            --fifth-color: #666370;
+            --sixth-color: #1C1F33;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: var(--third-color);
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h3 {
+            color: --sixth-color;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            padding-right: 40px;
+        }
+
+        a:hover {
+            cursor: pointer;
+            color: var(--sixth-color);
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+        }
+
+        #fb, #li, #gh {
+            font-size: 50px;
+            align-items: center;
+        }
+
+        #li, #gh {
+            padding-left: 20px;
+        }
+
+        #fb:hover, #li:hover, #gh:hover {
+            cursor: pointer;
+            color: white;
+            text-decoration: line-through;
+        }
+
+        i {
+            color: var(--sixth-color);
+        }
+
+        i:hover {
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+            <a href="/links">Links</a>
+        </nav>
+        <h1>Connect With Me</h1>
+        <div class="icons">
+            <div id="fb">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="ri-facebook-circle-fill"></i></a>
+            </div>
+            <div id="li">
+                <a href=""><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+            <div id="gh">
+                <a href="https://github.com/"><i class="ri-github-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
